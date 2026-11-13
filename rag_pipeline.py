@@ -37,12 +37,9 @@ FETCH_K = 24       # candidates considered by MMR
 MMR_LAMBDA = 0.8   # 1.0 = pure relevance, 0.0 = pure diversity
 
 REFUSAL_MESSAGE = (
-    "I'm sorry, but I can't help with that. This question is outside the scope of "
-    "the Zyro Dynamics HR policy documents I have access to, so I cannot answer it. "
-    "I can only answer questions about Zyro Dynamics HR policies such as leave, "
-    "compensation and benefits, work from home, performance reviews, code of conduct, "
-    "IT security, POSH, onboarding and separation, and travel and expenses. "
-    "For anything else, please contact the HR team at hr.helpdesk@zyrodynamics.com."
+    "I'm sorry, but I can only answer questions related to Zyro Dynamics HR policies. "
+    "This question is outside the scope of the HR policy documents I have access to. "
+    "Please contact the HR team for further assistance."
 )
 
 _NOT_FOUND = "NOT_FOUND"
